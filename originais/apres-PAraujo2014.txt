@@ -1,0 +1,143 @@
+FONTES DE INFORMAÇÃO JURÍDICAS
+BDJur e LexML
+Paula Carina de Araújo
+
+Universidade Federal do Paraná
+Curso: Gestão da Informação
+Disciplina: Demandas de Informação
+Professora Vera Lúcia Belo Chagas
+Filename original: FONTES DE INFORMAÇÃO JURÍDICAS
+
+CONCEITOS
+LEGISLAÇÃO: A legislação é conhecida como a reunião de leis, isto é, “o conjunto de diplomas legais ou disposições emanadas de autoridades em seus diversos níveis de atuação.”(ABREU; SANDOVAL, 1991, p. 15 apud BARROS, 2004, p. 203.)
+
+JURISPRUDÊNCIA: “Como fonte secundária do Direito, a jurisprudência consiste no conjunto de decisões reiteradas de juízes e tribunais sobre determinada tese jurídica” (BARROS, 2004, p. 203).
+
+DOUTRINA: É definida como a “interpretação de autores, juristas e escritores acerca de uma norma ou decisão jurídica.” (BARROS, 2004, p. 203).
+
+EXEMPLOS
+SICON – Sistema de Informação do Congresso Nacional
+
+Jurisprudência Unificada
+
+LexisNexis
+
+
+
+http://bdjur.stj.gov.br
+
+
+DESCRIÇÃO
+Iniciativa de acesso livre à informação. 
+
+
+Consórcio BDJur - rede de bibliotecas digitais formada pelo Poder Judiciário e órgãos essenciais e auxiliares da Justiça. 
+
+
+1º repositório não acadêmico no Brasil. 
+
+Para consultar na Biblioteca Digital Jurídica do STJ, você pode optar pela busca em campos específicos, como: “Atos Administrativos”, “Doutrina” e “Repositório Institucional”
+Se preferir você pode realizar a consulta geral em todo conteúdo da base
+
+Na consulta geral, preencha o campo digitando o termo desejado
+
+Observe a quantidade de itens recuperados
+Clique sobre o título desejado para acessar informações completas
+
+Clique sobre visualizar para acessar o texto completo em PDF
+
+Na consulta por Atos Administrativos, preencha os campos de acordo com os itens indicados
+Observe as coleções que compõem os Atos Administrativos
+
+Clique sobre o título desejado para acessar informações completas
+Observe a quantidade de itens recuperados
+
+Clique sobre visualizar para acessar o texto completo em PDF
+
+Na consulta por Doutrina, preencha os campos de acordo com os itens indicados
+Observe as coleções que compõem a Doutrina
+
+Clique sobre o título desejado para acessar informações completas
+Observe a quantidade de itens recuperados
+
+Na coleção escolhida, digite os termos de sua pesquisa na caixa de texto e clique em pesquisar.
+Clique sobre visualizar para acessar o texto completo em PDF
+
+Na consulta por Repositório Institucional, digite uma palavra ou termos para a busca 
+Observe as coleções que compõem o Repositório Institucional
+
+Clique sobre o título desejado para acessar informações completas
+Observe a quantidade de itens recuperados
+
+Clique sobre visualizar para acessar o texto completo em PDF
+
+http://www.lexml.gov.br
+
+LEXML
+Reúne leis, decretos, acórdãos, súmulas, projetos de leis, entre outros documentos em um só sistema de pesquisa;
+
+Nome: lex (do latim, lei) + acrônimo XML (Extensible Markup Language);
+ 
+Novo ponto de acesso unificado;
+
+URN (Uniform Resource Name). 
+
+
+
+URN (Uniform Resource Name)
+É possível consultar o texto da Lei nº 8.666/1993 nos sítios do Senado Federal, da Câmara dos Deputados e da Presidência da República, respectivamente.
+
+
+
+
+Erro 404 (recurso não encontrado)
+
+urn:lex:br:federal:lei:1993-06-21;8666
+ 
+
+Na pesquisa podem ser utilizadas: palavras, números, datas, siglas, apelidos, etc. 
+
+
+
+
+
+
+Informações essenciais do documento.
+Os resultados serão ordenados por relevância, mas é possível alterar para títulos, data, etc.
+Filtros
+É possível adicionar o item à cesta.
+
+Tramitação no Congresso.
+Direciona para a página do DOU.
+Texto com link para outros documentos.
+
+
+QUE TAL PRATICAR?
+Pesquise na BDJur em  “Atos administrativos” o documento de número 125  com data de publicação 2 de março de 2009. Apresente a referência.
+
+Localize na BDJur a “Obra rara” de Thomas McIntyre Cooley publicada em 1889. Apresente a referência do texto original.
+
+Acesse a LEXML e localize o Projeto de Lei do Senado nº 00139, de 2010. Para qual lei ele propõe alteração?
+
+Acesse a LEXML e pesquise o Acórdão TCU 1587/2010 do Tribunal de Contas da União. 2ª Câmara.Qual a data da publicação original?
+
+REFERÊNCIAS
+BARROS, Lucivaldo. Fontes de informação jurídica. In: PASSOS, Edilenice (Org.). Informação Jurídica: teoria e prática. Brasília :Thesaurus, 2004.
+
+Biblioteca Digital do Superior Tribunal de Justiça – BDJur. Disponível em: http://bdjur.stj.gov.br. Acesso em: 8 out. 2010.
+
+LEXML Brasil: rede de informação legislativa. Disponível em: www.lexml.gov.br Acesso em: 10 out. 2010.
+
+Projeto LEXML: documentação. Disponível em: http://projeto.lexml.gov.br/  Acesso em: 10 out. 2010.
+
+UNISUL. Tutorial BDJur. Disponível em: http://portal2.unisul.br/content/site/biblioteca/bibliotecavirtual/bancosdedadosonline.cfm Acesso em: 5 out. 2010.
+
+
+RESPOSTAS
+BRASIL. Superior Tribunal de Justiça. Portaria n. 125, de 27 de fevereiro de 2009. Boletim de Serviço [do] Superior Tribunal de Justiça, Brasília, DF, 2 mar. 2009. Disponível em: <http://bdjur.stj.gov.br/dspace/handle/2011/19966>.
+
+COOLEY, Thomas McIntyre et al. Constitutional history of the United States as seen in the development of American Law a course of lectures before the Political Science Association of the University of Michigan. New York: G.p. Putnam's, 1889.
+
+Lei nº 11.340, de 7 de agosto de 2006 - Lei Maria da Penha.
+
+

@@ -1,0 +1,370 @@
+LexML, o Processo Legislativoe o Ordenamento Jurídico
+Brasília, 26 de Novembro de 2010
+Iniciativa
+Implementação
+João Lima  
+joaolima@senado.gov.br
+1
+filename original: LexML e Processo Legislativo ENIAL GITEC 
+
+Tópicos
+Introdução
+
+LexML
+
+Processo Legislativo & Ordenamento Jurídico
+
+Gestão do Texto Integral
+Suíte de Ferramentas LexML
+Editor de Emendas
+
+Integração SAPL <> LexML
+2
+
+Contexto
+Era da Informação
+Excesso de Informação
+Falta de Organização
+Organizar a informação
+para recuperá-la mais rápido
+Constituição do Brasil
+Art 5º, inciso XIV
+“é assegurado a todos o acesso à informação”
+
+
+3
+3
+
+Contexto
+Internet 
+Persistência do Link (Error 404)
+Multiplicidade de portais e interfaces de pesquisa
+Hierarquia do Ordenamento Jurídico
+Constitucional
+Legal
+Infra-legal (marginalia)
+Ciclo de Vida
+Projeto de Lei => Lei
+Lei => Lei Alterada => Lei Revogada
+Jurisprudência <=> Lei
+Grande quantidade de siglas/acrônimos
+4
+4
+
+LexML Brasil
+Rede de Informação Legislativa e Jurídica
+Legislação, Jurisprudência, Projetos de Lei 
+Poderes: Legislativo, Executivo e Judiciário
+Esferas: Federal, Estadual e Municipal
+Objetivo
+Organizar a informação disponível em forma digital e desenvolver ferramentas de software livre para otimizar a gestão do texto integral 
+Influências
+Norme in Rete (Identificador urn:lex)
+Akoma Ntoso (XML Schema)
+
+
+5
+5
+
+Missão do Portal LexML
+Ser um ponto de acesso unificado no que concerne à informação legislativa e jurídica produzida por entidades e órgãos da administração pública direta e indireta nas esferas federal, estadual, municipal e distrital. 
+
+6
+6
+
+Missão do LexML
+Organizar a informação legislativa e jurídica do Brasil.
+
+7
+
+Portal
+Gestão
+da 
+Informação
+(Ferramentas)
+8
+
+Portal LexML
+9
+9
+9
+9
+
+Resultado da Busca - Filtros
+10
+10
+10
+10
+
+Filtro: Localidade
+11
+11
+11
+11
+
+Filtro: Autoridade
+12
+12
+12
+12
+
+Filtro: Tipo de Documento
+13
+13
+
+Seleção de um documento
+14
+14
+14
+14
+
+Detalhes do Documento
+15
+15
+15
+15
+
+Link para Publicação Oficial
+16
+16
+16
+16
+
+Link para Texto Multivigente (Presidência)
+17
+17
+17
+17
+
+Link texto original (Senado)
+18
+18
+18
+18
+
+Outras Características
+Linker
+Controle de Vocabulário
+Correção do Termo Digitado
+Ordenação
+Cesta de Itens
+
+
+
+Lei 8.666/1993 - Identificadores
+http://www6.senado.gov.br/legislacao/ListaPublicacoes.action?id=102466http://www.planalto.gov.br/ccivil/Leis/L8666cons.htmhttp://www2.camara.gov.br/internet/legislacao/legin.html/textos/visualizarTexto.html?ideNorma=322221&seqTexto=1&PalavrasDestaque=
+
+urn:lex:br:federal:lei:1993-06-21;8666 
+20
+20
+
+Identificador Persistente
+URN – RFC 2141
+Definição do namespace “lex” (Draft versão 2)
+http://tools.ietf.org/html/draft-spinosa-urn-lex-01
+urn:lex:br:federal:lei:1993-06-21;8666
+Localidade: br (Brasil)
+Autoridade: federal (esfera)
+Tipo de Documento: lei
+Descritor
+Data de Assinatura: 1993-06-21
+Número: 8666
+Detalhes: versões e fragmentos (dispositivos)
+21
+21
+
+Exemplos de URN
+urn : lex : br : ministerio.fazenda;secretaria.receita.federal : instrucao.normativa : 1998-10-06;117
+
+urn : lex : br;sao.paulo;campinas : camara.municipal : projeto.lei : 2004-11-23;4903
+
+urn : lex : br : supremo.tribunal.federal : sumula.vinculante : 2008-08-13;11
+
+urn : lex : br;paraiba : estadual : lei : 2008-05-07;8538
+
+urn:lex:br: ministerio.saude;secretaria.assistencia.saude: portaria: 2008-06-24;349
+
+
+22
+22
+
+Coleta de MetadadosProtocolo OAI-PMH
+SF
+CD
+STF
+TCU
+LexML
+TST Agregador
+TRT 1ª
+TRT 2ª
+TRT 3ª
+23
+23
+
+Ordenamento Jurídico &Processo Legislativo
+
+Processo legislativo 
+Altera o ordenamento jurídico vigente
+
+
+
+
+
+
+Texto Atualizado (vigente)
+
+Processo
+Legislativo
+Ordenamento
+Jurídico
+Vigente
+24
+
+Análise Jurídica dos Fatos
+“tempus regit actum”
+a regulação dos fatos ocorre pela lei existente no tempo em que se verificam
+Texto Vigente para qualquer data
+
+
+Lei 84
+novaredaçãoart 46
+Lei 20
+Atualiz.
+PL y
+Sanção
+PL z
+Lei 99
+Sanção
+Lei 20
+Atualiz.
+27
+
+Textos de uma Norma
+Texto Original, Texto Republicado, Texto de Retificação
+Publicado no periódico oficial
+Texto Monovigente (atualizado para uma data)
+Texto Multivigente 
+Incorpora múltiplas redações em um único texto
+Texto Retificado
+Incorpora as retificações publicadas.
+
+
+28
+
+Texto Multivigente
+29
+
+Controle de Vigência
+Inclusão de Parágrafo 
+§ 2º A reposição será feita em parcelas cujo valor não exceda 25% da remuneração ou provento. (Incluído pela Lei nº 9.527, de 10.12.97)  
+Nota com informação de vigência
+§ 2º A reposição será feita em parcelas cujo valor não exceda 25% da remuneração ou provento. (Incluído pelo art. 16 da Lei nº 9.527, de 10.12.1997 com vigência a partir de 11.12.1997)
+Ação  + fonte + vigência da fonte
+30
+
+Ferramenta de Autoria
+Editor de Emendas
+
+Editor de Emendas
+Motivação
+Melhor utilização dos recursos de informática no processo de autoria.
+
+
+
+32
+
+Autoria
+33
+
+Vantagens
+Garantia da boa técnica legislativa
+Geração mais rápida das emendas
+Ex: comando de emenda gerado de forma automática
+Editor Proposições
+Compilação da nova versão do projeto de lei com as emendas aprovadas
+Renumeração de dispositivos automática
+Com ajustes das remissões internas
+Aplicação de verificações da Legística 
+Comparação entre versões de texto de um PL
+
+Ferramenta de Autoria
+Demonstração Editor de Emendas
+Futuro 
+	(Requerimentos, Proposição, Pareceres, Norma Jurídica, Acórdão)
+
+Em desenvolvimento: Parser, Linker, Renderer, Editor de Emendas
+Futuro: Compilador, Comparador, Consolidador e outros Editores
+36
+
+Outras Ferramentas
+Parser
+Conversor para o formato LexML
+Renderer
+conversor do formato LexML
+Linker
+identifica remissões internas e externas
+
+Mais Ferramentas
+Comparador 
+compara versões de texto
+Normas (original e alterada)
+Projeto Lei (original e com emendas  aprovadas)
+Compilador
+gera nova versão de norma alterada
+Consolidador
+gera PL para simplificação do ordenamento jurídico
+
+
+Compilação
+Lei 10
+Lei 90
+Compilação
+Lei 10Multivigente
+Lei 10Alterada
+Alteração
+
+Consolidação
+Lei 10
+Lei 18
+Consolidação
+PLConsolidação
+
+Relatório
+PL - origem
+Lei 300
+Lei 38
+Lei 206
+Lei 430
+Leis de um mesmo assunto
+
+Relatório
+Leis - destino
+Auxílio na geração do texto
+Atualização do texto
+Geração de cláusula de revogação
+automática.
+
+SAPL <> LexML
+LexML
+Kit Provedor de Dados
+Cria tabelas
+Alimenta registros na tabela
+Metadados via Protocolo OAI-PMH (servlet)
+Java
+Solução SAPL (Jean, Morale, Lepri)
+Desenvolviment do protocolo OAI-PMH diretamente na base do SAPL
+Não será necessário JAVA
+Não haverá informação duplicada
+Será necessário cadastramento prévio no LexML
+Identificadores de Provedor de Dados e de Publicador
+
+Obrigado!
+João Lima, João Holanda, João Rafael e  “João” Marcos Fragomeni
+
+LexML, o Processo Legislativoe o Ordenamento Jurídico
+Brasília, 26 de Novembro de 2010
+Iniciativa
+Implementação
+João Lima  
+joaolima@senado.gov.br
+43
