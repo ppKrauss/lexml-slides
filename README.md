@@ -53,3 +53,10 @@ Originais (com eventuais atualizações) das apresentações completas:
 
  * [apres-JLima2011](https://www.youtube.com/watch?v=AgHZd4LX9gg)
  * ...
+
+------
+
+## Pendências e lembretes##
+
+* http://projeto.lexml.gov.br/gt-lexml/workshop-zero/slides 
+* ...
