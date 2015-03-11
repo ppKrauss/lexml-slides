@@ -1,7 +1,8 @@
 lexml-slides
 ------------
 
-Organizando sequências de slides de divulgação do LexML para reuso em apresentações diversas.
+**Colaboração** e **reutilização** de apresentações e trechos de apresentações relativas ao [Projeto LexML](http://projeto.lexml.gov.br/).
+Projeto `lexml-slides` para a centralizar fontes e organizar sequências de *slides*, para fins de reuso em apresentações diversas.
 
 ## Objetivo ##
 Concentrar em só repositório os *slides* de todas as apresentaçoes públicas interessantes (na visão dos curadores/colaboradores) do LexML, possibilitando a sua atualização, correção e principalmente reutilização.
