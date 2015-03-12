@@ -5,7 +5,7 @@ lexml-slides
 Projeto `lexml-slides` para a centralizar fontes e organizar sequências de *slides*, para fins de reuso em apresentações diversas.
 
 ## Objetivo ##
-Concentrar em só repositório os *slides* de todas as apresentaçoes públicas interessantes (na visão dos curadores/colaboradores) do LexML, possibilitando a sua atualização, correção e principalmente reutilização.
+Concentrar em só repositório os *slides* de todas as [apresentaçoes públicas interessantes](http://educacaoaberta.org/wiki/index.php?title=Defini%C3%A7%C3%A3o) (na visão dos curadores/colaboradores) do LexML, possibilitando a sua atualização, correção e principalmente reutilização.
 
 ## Organização das pastas deste projeto ##
 No presente README são listadas as apresentações e as fontes de onde foram obtidas.
@@ -53,3 +53,12 @@ Originais (com eventuais atualizações) das apresentações completas:
 
  * [apres-JLima2011](https://www.youtube.com/watch?v=AgHZd4LX9gg)
  * ...
+
+## Créditos, licenças e permissões ##
+
+Os créditos dos originais devem ser indicados no primeiro ou ultimo slides da apresentação &ndash; um colaborador pode tomar a liberdade de acrescentar caso o autor já tenha cedido anteriormente para o dominio publico. Em geral o apresentador (e autor/colaborador principal dos slides) é indicado no primeiro slide e os créditos no final. Da mesma forma o tipo de licença cedida deve ser indicada.
+
+O presente projeto não tem "espelhos", sendo distribuído apenas por um único repositório designado pelo [lexml.gov.br](http://www.lexml.gov.br), atualmente o [github.com/lexml](https://github.com/lexml).
+
+As apresentações registradas no presente projeto são consideradas [Recurso Educacional Aberto](http://educacaoaberta.org/wiki/index.php?title=Defini%C3%A7%C3%A3o), e estarão sob uma das seguintes licenças, com permissão de adaptação (remix): [by-sa](https://creativecommons.org/licenses/by-sa/4.0/) ou [by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
