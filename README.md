@@ -62,3 +62,13 @@ O presente projeto não tem "espelhos", sendo distribuído apenas por um único 
 
 As apresentações registradas no presente projeto são consideradas [Recurso Educacional Aberto](http://educacaoaberta.org/wiki/index.php?title=Defini%C3%A7%C3%A3o), e estarão sob uma das seguintes licenças, com permissão de adaptação (remix): [by-sa](https://creativecommons.org/licenses/by-sa/4.0/) ou [by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
+## Referências ##
+
+ * ...
+
+Outras iniciativas vinculadas ao presente projeto:
+
+ * http://projeto.lexml.gov.br/gt-lexml/workshop-zero/slides 
+ * https://www.youtube.com/channel/UCcPQHqAz2s6wa6cYgbnnLxQ
+ * ...
+
