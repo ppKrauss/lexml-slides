@@ -48,7 +48,7 @@ Originais (com eventuais atualizações) das apresentações completas:
 |---|---|---|---|
 |[apres-JLima2011](https://docs.google.com/presentation/d/1-t7cnK_BACAWB02gk_gr8pSuMpbt8A1LNfuInB_USMI/)|LexML e Processo Legislativo ENIAL GITEC.pptx | [interlegis.leg.br](https://colab.interlegis.leg.br/raw-attachment/wiki/IIIEncontroGitec/LexML%20e%20Processo%20Legislativo%20ENIAL%20GITEC.ppt)|[by-sa](https://creativecommons.org/licenses/by-sa/4.0/)|
 |[apres-PAraujo2014](https://docs.google.com/presentation/d/13s7ZVK7U8-1tYL3GOZlzfaZaHTWCfrfnFPq8UbJzCbo/)|FONTES DE INFORMAÇÃO JURÍDICAS.pptx|[bibjuufpr.blogspot.com.br/2014/02/lexml](http://bibjuufpr.blogspot.com.br/2014/02/lexml-rede-de-informacao-legislativa-e.html)|<small>Material cedido por e-mail (em 2015-03-03 e 2015-03-12), permissão [by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/4.0/).|
-
+|[apres-PKrauss2015](https://docs.google.com/presentation/d/1qxuGx6ROwWAgEAtOQ0PYgzSUabYy22j2a5Kn4-Zh4h0/)|LexML-apresPUC-SP-sys-2015-03-24.pptx|-|Permissão [by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/4.0/).|
 
 
 ## Videos correspondentes ##

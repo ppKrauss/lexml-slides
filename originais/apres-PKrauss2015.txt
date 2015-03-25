@@ -1,0 +1,161 @@
+LexML, muito além do Google-das-leis-brasileiras: 
+transparência, automação e interoperabilidade
+Conversa com Peter Krauss, 
+sobre a ferramenta  www.lexml.gov.br  e o  http://projeto.lexml.gov.br
+
+2015-03-24     •     PUC-SP Campus Consolação
+
+Para falar do LexML e adentrar nos conceitos do projeto, antes de tentar explicar, o mais simples é usar (é auto-explicativo!):
+
+Relembrar: Lei seca, Marco Civil da Internet,  conhece ou que já ouviu falar? Tente lembrar de alguma...
+http://www.LexML.gov.br
+... Mão na massa! Funciona também nos smartphones.
+... vamos usar por 2 minutos ...
+
+Lembrou de alguma norma federal? Para quem não lembrou, experimentar buscar e navegar por alguma destas:
+
+“Constituição Federal” (de 05/10/1988):  abrir com o Linker e navegar nas Emendas Constitucionais.
+“Lei nº 11.340” (legislação federal). De 2006: regulamenta o § 8º do art. 226 da Constituição. De 1914: criava uma ONG. 
+“Decreto nº 11.340 de Caxias do Sul”. Típica norma municipal.
+“Lei seca”: comprar a nossa com a estadunidense de ~1925. No LexML a busca é bem mais precisa.
+Tarefa online no Portal
+Nota: a Lei regulamenta/detalha a Constitituição ou outras leis, o decreto regulamenta uma lei: a norma de hierarquia inferior (ex. decreto) não inova a sua superior (ex. lei), não pode criar nem extinguir direitos ou deveres já fixados. 
+
+Ainda buscando e navegando pelo site ... Podemos notar:
+As buscas remetem a uma “ficha catalográfica” (metadados) que, por si, já é garantia de existência do documento.
+Em geral há mais de um link para diferentes versões do documento.
+As URLs dessas fichas são regulares e expressam caracteristicas da norma. Exemplo: http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2006-08-07;11340
+Podemos simplificar a URL para “lei:2006;11340”
+O final da URL é uma URN, indicada também na ficha. Chamamos o prefixo http://www.lexml.gov.br/urn/ de “URN resolver”.
+As buscas são realizadas apenas pelos metadados, ignora-se conteúdo.
+
+... ideias... bugs?!  ...
+
+O que mais percebemos?
+
+O software do portal e de todas as ferramentas do Projeto LexML estão disponíveis para consulta pública permanente, e para fomentar o uso de uma comunidade de colaboradores.
+
+Reparou algum bug?  Sabe expressar de modo ao seu colega poder reproduzir?  Quer sugerir uma nova funcionalidade? Em ambos os casos, você pode adicionar uma issue no 
+https://github.com/lexml
+
+Quer colaborar em código? FORK IT! 
+Problemas? Ideias? Colabore!
+
+A iniciativa LexML surgiu em 2001, como proposta nos países do sistema romano-germânico (Civil law countries).
+LexML no mundo...
+Distribuiçao da
+Civil law 
+em oposição à
+Commom law
+
+
+
+ 
+
+Ignorantia legis neminem excusat
+
+No Brasil o LexML foi oficialmente em junho de 2009... Com foco na resolução das URNs e na estabilidade, com interface amigável e acervo amplo, vem se tornando referência internacional.
+
+Brasil e Itália estão submetendo um padrão internacional, consolidando as tecnologias e tornando mais fácil que outros países adotem as soluções construídas, a RFC da URN LEX,
+   http://tools.ietf.org/html/draft-spinosa-urn-lex-09
+   (uma introdução na Wikipedia-pt) 
+vamos explicar melhor o uso das URNs mais adiante.
+
+Colaboração internacional
+
+O Projeto LexML integra instituições dos três poderes: Executivo, Legislativo e Jurídico decidem em consenso as normas técnicas LexML.
+
+
+Colaboração inter-institucional
+A integração com outras instituituições também é fundamental para a troca e interoperabilidade de acervos. A integração com as bibliotecas é exemplo maior, viabilizando a indexação de Doutrina.
+Procuradoria Geral da República / Ministério Público Federal
+Advocacia-Geral da União
+
+Obrigatoriedade da publicação (art. 37); 
+Direito de acesso (art. 5º, inciso XIV); 
+Obrigatoriedade da franquia ao acesso              (art. 216, § 2º);
+Transparência (art. 5º, XXXV);
+Direito à "auto-defesa" (art. 133);
+Defesa em tempo (art. 5º, LXXVIII).
+
+O que diz a Constituição?
+
+O LexML vem "pagando" essa dívida antiga*, contraída em 1988:
+
+Obrigatoriedade da publicação: o e-PING já recomenda; o Judiciário já obriga; e em alguns estados, como o RS onde algumas normas municipais de hierarquia superior (ex. Lei Orgânica) precisam estar no LexML.
+Direito de acesso: qualquer cidadão, com o Marco Civil da Internet, agora tem exatamente o mesmo direito de acesso.
+Transparência: o LexML veio criar um arcabouço completo e um referencial tecnológico para o conceito de transparência, antes um tanto vago. A LAI e o LexML se reforçaram mutuamente.
+
+* a Ignorantia legis vem de antes, nunca na história havia sido 100% contemplada.
+CF: o LexML contempla!
+
+(... continuação)
+obrigatoriedade da franquia ao acesso: quem sustenta o LexML é o governo. Garante-se 24hs/dia, 7dias/semana, ..., 10 anos/década (!). Confiabilidade e persistência das URLs e URNs do LexML. 
+direito à "auto-defesa": o acesso online e a interoperabilidade para funcionar com outras ferramentas, garante o “aprendizado das leis” (...)  
+defesa em tempo: enorme automação oferecida aos agentes operadores do Direito, vem sendo conquistada com a adoção os padrões LexML.
+
+
+CF: o LexML contempla  (cont.)
+
+O Projeto LexML vai além das funcionalidades de busca.        (ver PDFs)
+Estabelece um modelo de referência, a partir do qual analistas, programadores, usuários e operadores do Direito podem se expressar com rigor e sem ambiguidade.
+Estabelece padrões (recomendados pelo e-PING), 
+URN lex: identificador único transparente.
+XML (DTD LexML): estruturar o inteiro teor dos documentos. 
+Protocolos (webservices, OAI e outros): intercâmbios de dados, interoperabilidade de sistemas.
+Metodologias: edição de normas, armazenamento, marcação, etc.
+Acervo de metadados
+Acervo de texto integral: ver proposições.
+Indexação cruzada de Doutrina (livros e artigos vinculados à norma).
+
+O que mais é o LexML?
+
+Nos últimos anos passaram a operar online uma série de outras iniciativas, destacando-se:
+UK: http://www.legislation.gov.uk/
+EUA: não é centralizado (!), usa-se mais o Google Scholar Case law
+
+Padrões e sistemas análogos para artigos científicos:
+DOI: resolução de identificadores únicos é centralizada.
+JATS: XML para a marcação semântica e segmentação precisa. 
+SciELO: brasileiro, indexa diversos outros países.
+PubMED Central: modelo de referência, maior e mais completo.
+Projetos análogos
+
+Buscas LexML vs Google
+Atributo do buscador/acervo
+LexML
+Google
+Soberania nacional
+SIM
+NÃO
+Concorrência de mercado
+SIM
+SIM
+Interoperabilidade
+SIM
+NÃO
+Confiabilidade da informação recuperada
+SIM
+NÃO
+Especialista (precisão)
+Alta
+NÃO
+Parcela do universo/Internet (extaustão)
+Média
+Alta
+concorrência neste contexto é a disputa por usuários na Internet
+
+Os fatores p de precisão e r de exaustão permitem demonstrar a vantagem do especialista.
+Especialista: +recall  e  +precision
+universo = conjunto D e o resto (conjunto bolas amarelas). Os desejados são bolas sem bordas. Os recuperados são bolas pretas. 
+
+Podemos seguir, voltando à análise do LexML como ferramenta de busca, ou, se a platéia preferir, nos aprofundarmos nos tópicos mais téncnicos.
+
+... Parada para conversa...
+
+Persistência (exemplos do DOI e da URN Lex)... Conceito de PURL (ligeiramente distinto de Permalink  de uma versão do doc).
+Textos integrais, padronizados em XML e seu acervo.
+Automação da compilação de normas: expressa num só documento        (ex. HTML) todos os textos, na forma de “versão atualizada da norma”. Alto custo quando manual. “Modelo DITA” para se automatizar a compilação.
+Apoio computacional à construção de textos consolidados: exemplo das normas de “batismo de rua”, centenas que poderiam ser reduzidas a apenas uma.
+...
+Tópicos técnicos sugeridos
