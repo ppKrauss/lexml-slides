@@ -1,0 +1,206 @@
+Nomes e identificadores
+contextos determinando o uso
+
+Esses slides vermelhos serão utilizados como recurso para introduzir, um pouco mais informal e didaticamente, conceitos gerais e convenções, que faremos uso depois na discussão ténica. A apresentação será realizada em blocos:
+NOMES: conceituando e exemplificando como operar com eles.
+GARANTIA DE UNICIDADE NA IDENTIFICAÇÃO
+NOMES CANÔNICOS
+NAMESPACES E HIERARQUIAS
+.... Em seguida (acabam os slides vermelhos e) começam os tópicos que interessam, precisamos controlar o tempo!
+
+
+OBJETIVO
+Ainda assim as crianças não deixam de se comunicar (!), elas recorrem a um outro sistema de xzx, o sistema gestual, para incluir as coisas ainda seu nome no seu discurso
+
+NOMES
+(bloco 1)
+
+O que são nomes?
+Todas as coisas a nossa volta possuem um nome, e justamente por isso somos capazes de falar delas... Quando criança, mesmo dominando a fala, ainda não conseguimos “falar de todas as coisas”, pois não sabemos o nome de todas elas...  Quando crianças apontamos o dedo para aquilo que não sabemos o nome.
+Também aprendemos que existem contextos e sinônimos:  
+na cozinha “nenê qué água” é referência à bebida, na piscina é referência à própria piscina; 
+ em casa “Mariana!” é a babá,  na escola é a diretora. 
+A cada um dos termos empregados pelo nenê existem sinônimos mais específicos, que o adulto, pelo contexto, traduz como “água do filtro”,  “água da piscina”,  “Mariana Eugência da Silva”  e  “Maria Mariana Carvalho”.
+
+
+Ancorando nomes a exemplos concretos
+A criança não deixa de se comunicar (!), quando ela aponta com o dedo, está deixando de usar a fala e recorrendo a um outro sistema de comunicação, o sistema gestual, para incluir as coisas ainda sem nome no seu discurso.
+Mentalmente fundamentamos os nomes das coisas em amostras do mundo real, em exemplos concretos. Substantivos como “água do filtro”  e  “água da piscina” são abstrações colhidas de muitas amostras. Os nomes próprios  “Mariana Eugência da Silva”  e  “Maria Mariana Carvalho” caracterizam entidades únicas.
+Na Internet o recurso análogo a “apontar com o dedo para uma amostra”  é a URL.     O  padrão RFD  por exemplo faz uso da URL para esse fim.
+
+Associando nomes a construtores
+Outro recurso, mental e linguístico, para "apontar com o dedo" de forma mais simbólica, são os operadores conjuntivos.  Eles são usados com frequência no discurso científico para se referir a coisas complexas que não possuem nome:       
+ “coisas tipo T são a união disso com aquilo”
+  T = disso ⋃ aquilo     
+  “a interseção da população M dos mamíferos com a O dos ovíparos forma a X”
+                  M ⋂ O = X
+NOTA: o emprego das variáveis (T e X) não chega a ser um “batismo de nome”... Mas são nomes temporários, de escopo limitado. Prevalecem as definições conjuntivas  ( operadores ⋃ e ⋂ ).
+
+Construção do dicionário mental de nomes
+O nosso “repertório de nomes”, ainda reduzido quando crianças, vai crescendo, na medida que precisamos e que ganhamos confiança e confirmação da utilidade de cada nome a cada contexto.
+A construção do nosso “dicionário mental de nomes” está baseada em:
+Construção dinâmica, por demanda, assimilando aos poucos e com segurança os nomes relevantes.
+Associação de nomes a contextos:  namespaces.
+Traduzir nomes em outras formas de identificação: apontar com o dedo, dar o nome completo, associar a sinônimos, associar a hierarquias, etc. 
+
+Dicionários de nomes
+E nas bases de dados, na linguística computacional, nos softwares de catálogos, etc. etc. será que existe um denominador comum que ajuda a construir dicionários com a mesma finalidade e o mesmo poder que o nosso dinonário mental de nomes?
+Esse poderoso dicionário precisaria realizar as funções básicas, que em termos computacionais podem ser traduzida nos seguintes requisitos:
+Construção por demanda: não pode ser estático, não bastam ontologias ISO.
+Agrupamento de nomes em namespaces.
+Associação dos nomes a sinônimos e hieraraquias.
+Associação dos nomes a outras formas de identificação (URLs).
+
+Projeto SQL-Term, um dicionário de nomes
+Estamos construindo, focados no uso do SQL, o projeto
+      https://github.com/ppKrauss/sql-term
+Os bancos de dados relacionais (implementam padrão SQL) são a forma mais eficaz de se armazenar nomes, sinônimos e suas associações e demais relacionamentos.
+ Com o PostgreSQL 9.5 tornou-se possível também implementar webservices JSON diretamente, além de manipular conteúdos XML (RDF,  XHTML, JATS, LexML, etc).
+Funções/webservices: N2C, N2Ns, SEARCH, FIND.
+Exercício prático: buscar nomes canônicos  em  http://wayta.scielo.org/ 
+
+LEMBRETES E CONCLUSÕES
+... pausa para discussão...
+... Entendemos (consenso?) o que são nomes, para o que servem, como são usados, e como implementar algo similar ao “dicionário mental de nomes” num sofware...
+
+... Podemos supor que o SQL-Term resolva o nosso problema, é suficiente como framework para gerenciar nomes e sinônimos via SQL e microservices?   ...
+
+
+LEMBRETES E CONCLUSÕES
+
+O que mais pode ser considerado “nome”?   (linguístas chamam entidade nomeada)
+Nomes das coisas são nomes: mesa, cadeira, pessoa, Peter, ... Todos os substantivos, próprios ou não, são nomes dentro da conceituação apresentada. 
+URLs são nomes: o “nome da página” dado por seu endereço (ex. http://noticias.uol.com.br/ciencia-e-saude ) é inclusive um nome único. A URL relativa (ex. /ciencia-e-saude no contexto noticias.uol.com.br) também é um nome.
+Códigos (ex. papel A4 ou países BR, BO, US) são “nomes padronizados”
+NOTA: ... e identificadores (Peter é portador do RG-123456), são “nomes secretos”, “sinônimos oficiais”? ...  De certo modo são, discutiremos no próximo bloco.
+
+GARANTIA DE
+UNICIDADE
+NA 
+IDENTIFICAÇÃO
+(bloco 2)
+
+Identificadores únicos e sua relevância
+É tão tão básico e relevante na Computação, que dispensa apresentações!                 Todo caso... Rapidamente, apenas relembrando:
+Dado um conjunto de coisas, um identificador (ID) exclusivo (unique ID - UID)             é qualquer identificador que seja  garantidamente único entre todos os                             “nomes identificadores” dessas coisas, e para uma finalidade específica. 
+Em Computação existem três tipos principais de UID:     
+números seriais,  números randômicos,  e
+ "códigos ou nomes" (reutilizados como UIDs).
+
+Ainda hoje os navegadores não resolvem URNs (ex. Firefox com plugin ISSN é pouco popular).  A saída mais elegante e funcionalmente satisfatória é o uso de PURL (persistent URL) com sintaxe cool e mecanismo seguro de redirecionamento                  da URN (concatenada no final da PURL) para uma página de “ficha catalográfica” da URN,   ou a “página do objeto” denominado pela URN. 
+URLs e URNs: o PURL como ponte
+Quando se discute a utilização mais ampla de URNs (Uniform Resource Names) e URLs (Uniform Resource Locators) esbarra-se no dilema entre os requisitos de “rotular”, que as URNs satisfazem plenamente,  e “resolver”, que as URLs satisfazem.  
+NOTA: essa construção de PURL cool com “URN resolvida” tende a ser adotada como padrão na Web Semântica e nas Intranets.
+
+Exemplos (PURL e URNs) em ação
+urn:lex:br:federal:lei:2008-06-19;11705  é a Lei Seca
+urn:issn:0100-8455  é a revista "Genetics and Molecular Biology"
+urn:doi:10.1038/ncomms7368  é o artigo da Descoberta da Dor do  Camaleão
+Cada um dos exemplos é resolvido através da URL (endpoint) do seu respectivo URN-Resolver. A concatenação se dá pela URN completa (variável $urn)  ou o código que vem depois da string “urn:tipo:”, na variável $urnCode.
+lex:       http://www.lexml.gov.br/urn/$urn
+issn:     http://www.worldcat.org/issn/$urnCode
+doi:      http://dx.doi.org/$urnCode
+
+UIDs Transparentes vs Opacos
+UID transparente
+UID de lei dado por URN Lex
+urn:lex:br:federal:lei:2008;11705
+www.lexml.gov.br/urn
+metadados, epígrafe da norma
+NÃO precisa!        :-)
+Mínimo
+ 
+UID opaco
+UID de artigo dado por DOI
+urn:doi:10.1038/ncomms7368
+dx.doi.org
+impossível (usa sequencial)
+SIM, precisa         :-(
+ALTO
+
+
+  
+
+Exemplo:
+ID objeto:
+Resolução: 
+Redação: 
+Autoridade:
+Custo:
+
+UIDs curtos
+Os UIDs transparentes em geral se baseam em UIDs públicos já popularizados (ex. ISSN-L) ou chaves única de metadados, que requer certo esforço de verificação e confirmação de unicidade.  Uma das poucas vantagens dos UIDs opacos é a dispensa desse esforço, e, no caso de números sequenciais de universo mais reduzido, a garantia de “nome curto”.
+Na Web o mais popular desses nomes curtos é o inteiro sequencial representado em Base-36 ou Base-64. A maioria dos engines de shortening das URLs curtas se baseia neste mecanismo.
+UIDs transparentes longas, como a URN LEX, possuem traduções curtas padronizadas, formando UID opacos sinônimos.
+Notadamente o DOI, dadas as exigências sintáticas e a sua incompatibilidade histórica com ISSN, não pode ser expresso diretamente como UID curto. Para tanto é oferecido o short-DOI service.
+
+URN LEX é transparente!
+Nosso texto explica que o nome oficial do texto da "Lei Seca"  é  "LEI Nº 11.705, DE 19 DE JUNHO DE 2008", que então pode ser convertido em URN:
+Simplificação de letras e números: "LEI Nº 11.705, DE 19 DE JUNHO DE 2008"      = "lei 11705, de 19/06/2008"
+Conversão do formato da data (formato ISO): "19/06/2008" = "2008-06-19"
+Colocação dos elementos na ordem padrão LexML:                                                                                  "lei 11705, de 2008-06-19" = "lei;2008-06-19;11705"
+Inclusão do contexto (norma da esfera Federal): "br:federal:lei;2008-06-19;11705".
+Assim "urn:lex:br:federal:lei:2008-06-19;11705" é a URN da "Lei Seca",                                       sem demanda alguma (!) por buscar ID ou prefixo na  autoridade central.
+
+N = Name (URN)             Ns = Names               U = URL
+Microservices (com endpoint dado por PURL cool) básicos oferecidos num sistema de gestão de nomes (URNs)
+N2U: “name to URL”, redireciona a URN (como parâmetro) para a sua URL.
+N2Ns:  lista todos os sinônimos do nome fornecido.
+N2Us: lista todas as URLs quando existe mais de uma (ex. sites oficiais das leis)
+info: ficha catalográfica da URN
+Operações fundamentais num URN-resolver
+
+NOMES CANÔNICOS
+(bloco 3)
+
+Normalização e canonicalização
+“Normalizar” no contexto sintático é transformar o texto ou códogo em uma forma mais “limpa” e padronizada.  
+As URLs  por exemplo são case insensitive por regra de normalização.  Nomes textuais (ex. “Zé da Silva”) em uma base de dados, também precisam ser normalizados: corrige-se “Zé Da Silva”, “ZE DA SILVA”, “ze da silva”, “ze-da-silva”.
+Já a “versção canônica” é relativa à relação entre nomes normalizados que são sinônimos entre si. Por exemplo “USP” e “Universidade de São Paulo” podem ser sinônimos. Não há uma regra clara: na prática há que se linkar cada sinônimo com seu canônico. Essa informação do link é valiosa e precisa ser registrada.
+
+Exemplo da URL Canônica
+A normalização das URLs é descrita pela RFC 3986. As regras de normalização garantem que as diversas alternativas de expressão de "URLs sinônimas" sejam convertidas em “URLs canônicas” (únicas) da página ou endpoint.                                               Regras de tradução entendidas como “processo de tradução para a URL canônica”:
+Supressão, por default, da porta default (80 para o HTTP).  Exemplo: http://www.example.com:80/bar.html → http://www.example.com/bar.html
+Supressão da página default. Exemplos:                            http://www.example.com/default.asp → http://www.example.com/        http://www.example.com/a/index.html → http://www.example.com/a/
+Substituição do “endereço IP” pelo “endereço de domínio”. Exemplo:  http://208.77.188.166/ → http://www.example.com/
+As regras 0 (case insensitive) 1 e 2 podem ser consideradas normalização
+
+(cont.) Exemplo da URL Canônica
+
+Além da regra “converter maiúsculas para mínuscas”, as regras 1 e 2 podem ser consideradas parte do processo de normalização, pois requerem apenas operações sintáticas (ex. limpeza por regular expression).
+Já a regra 3 requer conhecimento externo (tabela DNS), de modo que é necessariamente um processo de canonicalização.
+A RFC não faz distinção dos processos, a distinção é nossa por estarmos sendo mais rigorosos com os conceitos de “nome normalizado”  e “nome canônico”.
+
+Exemplos na Linguística e Biologia...
+Para entender o quão geral e distinto da normalização é o processo de eleição do nome canônico, vejamos os casos mais exóticos:
+Em Linguística as entradas do dicionário e são destacadas pelo “lema”. As palavras do conjunto  C={menino, menina, meninos, meninas}  referem-se à mesma coisa. Os linguistas ao invés de apelidarem o conjunto de “C” preferem rotular o conjunto por um de seus elementos, por exemplo “menino”.  Esse representante é o lema.                              O processo de transformar as palavras de uma sentença ou string de busca em lemas é dito lematização. 
+PS: em um termos do que já conceituamos antes, entendemos que o lema do linguista é o nosso “nome canônico” .
+
+... Exemplos na Linguística e Biologia
+Em Biologia, no ramo da Taxonomia -- que é de fato de onde se originaram as metodologias classificatorias científicas, incluindo a canonicalização --,   o nome de gênero é obtido do nome de espécie de um representante dentre os diversos membros do gênero.  Neste sentido o membro eleito é um nome canônico.
+Apesar dos taxonomistas poderem debater por anos qual a melhor forma de agrupar espécies em gêneros, pr. ex. o Taxonomista-1 usa  G1={Aus, Cus,Eus}, o segundo usa    G2={Aus, Cus}, e o terceiro G3={Aus}... Toda a comunidade dos biologos  pode continuar sua vida pois refere-se ao nome canônico do grupo quando precisa. 
+Na ilustração X, Y e Z são os representantes canônico, independentes dos agrupamentos.
+
+N = Name (ou URN)             Ns = Names               C = Canonic name
+Microservices básicos oferecidos num sistema de gestão de namespaces:
+N2C: “name to Canonic”, devolve o nome correto, ou seja, o canônico.
+N2Ns:  lista todos os sinônimos do nome (canônico ou não) fornecido.
+info: ficha catalográfica do nome, ou seja, todos os metadados do canônico.
+search, find: ambos verificam todos os nomes, mas search adota o modo de busca especificado e find usa uma heurísca stilo Google.
+search2C, find2C: mesmo que incluir N2C (e DISTINCT) depois da busca
+group: para destacar prefixos ou relações hierárquicas de nomes.
+Funções básicas num gestor de nomes
+PS: o Projeto SQL-Term oferece todas essas funções, nativamente em SQL e em microservices.
+
+Namespaces,
+grupos e hierarquias
+Gestão eficiente de nomes
+(bloco 4)
+
+Hierarquias de NOMES ou URNs
+Nomes, como vimos no Bloco-1, requerem contexto... E como os contextos são hierarquizados, é comum o uso de esquemas de hierarquização de nomes para suprir contextos de complexidade crescente: 
+nomes curtos (apelido “Má” para “Mariana”),  para ambientes de baixíssima diversidade (ex. em casa entre irmãos ou vizinhos);
+nomes simples (Mariana) para ambientes simples (ex. escola); 
+nomes completos (Mariana Pereira da Silva) para quasi-unicidade... 
+nomes horriveis (RG 123747433-99) para unicidade mais ampla. 
+Da mesma forma “urn:lex” e “urn:issn” são suficientes para a baixa divercidade de urn-schemas, já os prefixos “urn:lex:br;sp;camara” e “urn:issn:1234” caracterizam grupos distintos dentro de uma diversidade maior de objetos.

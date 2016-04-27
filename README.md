@@ -26,6 +26,8 @@ O conteúdo dos módulos pode ser extraído de apresentações originais (contro
 
 Cada *módulo* deve ter sua origem no GoogleDocs, com nome fixado neste README (ver "Rótulos e links"). Cada módulo deve apresentar também uma pasta com mesmo nome, contendo o "`.pptx` explodido" &mdash; corresponde ao arquivo `nome.pptx` exportado do GoogleDocs com nome `nome.pptx.zip` e então explodido pelo `unzip`.
 
+NOTA: inidialmente nem todos os slides serão decompostos em módulos, requer trabalho.
+
 ### originais ###
 Recipiente centralizado das apresentações originais realizadas. Cada apresentação, quando originada em outro aplicativo, deve ser importada para o GoogleDocs e renomeada para o padrão fixado neste README. O arquivo `.pptx` é o arquivo exportado do GoogleDocs, não pode ter outra origem. Sugere-se também exportar o `.txt` para ajudar no controle/verificação de eventuais atualizações da apresentação.
 
@@ -49,6 +51,8 @@ Originais (com eventuais atualizações) das apresentações completas:
 |[apres-JLima2011](https://docs.google.com/presentation/d/1-t7cnK_BACAWB02gk_gr8pSuMpbt8A1LNfuInB_USMI/)|LexML e Processo Legislativo ENIAL GITEC.pptx | [interlegis.leg.br](https://colab.interlegis.leg.br/raw-attachment/wiki/IIIEncontroGitec/LexML%20e%20Processo%20Legislativo%20ENIAL%20GITEC.ppt)|[by-sa](https://creativecommons.org/licenses/by-sa/4.0/)|
 |[apres-PAraujo2014](https://docs.google.com/presentation/d/13s7ZVK7U8-1tYL3GOZlzfaZaHTWCfrfnFPq8UbJzCbo/)|FONTES DE INFORMAÇÃO JURÍDICAS.pptx|[bibjuufpr.blogspot.com.br/2014/02/lexml](http://bibjuufpr.blogspot.com.br/2014/02/lexml-rede-de-informacao-legislativa-e.html)|<small>Material cedido por e-mail (em 2015-03-03 e 2015-03-12), permissão [by-nc-sa](https://creativecommons.org/licenses/by-nc-sa/4.0/).|
 |[apres-PKrauss2015](https://docs.google.com/presentation/d/1qxuGx6ROwWAgEAtOQ0PYgzSUabYy22j2a5Kn4-Zh4h0/)|LexML-apresPUC-SP-sys-2015-03-24.pptx|-|Permissão [by-sa](https://creativecommons.org/licenses/by-sa/4.0/).|
+|[apres-PKrauss2015-07v2](https://docs.google.com/presentation/d/1daCMrwsa1U3qG_5CePDwDsUT1B456pmNESKQhAYAEE4/pub?start=true&loop=false&delayms=3500&slide=id.g9afb41a74_0_92)|LexML-CGMSP-2015-07v2|-|Permissão [by-sa](https://creativecommons.org/licenses/by-sa/4.0/).|
+|[apres-PKrauss2016-nomes](https://docs.google.com/presentation/d/1FamX-EGh8NB50fHDYZ7krZtL_bDMj-8QlD4U1CIYgk0/pub?start=false&loop=false&delayms=3500)|Nomes e identificadores|-|Permissão [by-sa](https://creativecommons.org/licenses/by-sa/4.0/).|
 
 
 ## Videos correspondentes ##

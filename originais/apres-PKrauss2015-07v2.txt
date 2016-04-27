@@ -1,0 +1,232 @@
+Convenções LexML para o municipio
+Uso do LexML na interoperabilidade dos sistemas da CGM-SP
+Workshop: leitura e interpretação das normas técnicas do LexML
+Peter de Padua Krauss (ppKrauss@gmail.com)     •    Colaborador LexML desde 2008
+
+O Projeto LexML integra instituições dos três poderes: Executivo, Legislativo e Judiciário decidem em consenso as normas técnicas LexML.
+
+
+Brasil  inter-institucional
+A integração com outras instituituições também é fundamental para a troca e interoperabilidade de acervos. A integração com as bibliotecas (RVB) é exemplo maior, viabilizando a indexação de Doutrina.
+Procuradoria Geral da República / Ministério Público Federal
+Advocacia-Geral da União
+
+Todas as convenções LexML  projeto.lexml.gov.br/documentacao
+As convenções LexML são padrão oficial E-PING.
+Descrição sumária:    simples e oficial   ou   longa e não-oficial.
+Usando um pouco!   www.LexML.gov.br 
+ Exemplo de município: Campinas (SP)     Alvorada (RS)
+Exemplo da Lei Seca: é como uma “ficha catolográfica”.                                         O identificador único da norma,                                                                                "Lei Federal nº 11705, de 19 de Junho de 2008"  é traduzido em urn:lex:br:federal:lei:2008-06-19;11705
+Contextualizando: links e exemplos
+
+Para os objetivos gerais da CGM-Sampa,  certos documentos possuem “valor de prova”, e isso não se restringe aos documentos legislativos... Exemplos:
+As "leis da Contabilidade" estão alicerçadas nas Ciências Contabeis...  Por  sua vez estão expressas nas obras consagradas do ramo, citadas por outras obras, e todas elas expostas publicamente nos acervos digitais e bibliotecas.
+... visão bem geral... PROVA
+As "leis da Termodinâmica" dizem que é proibido o governo financiar projetos de moto-contínuos.
+As boas práticas afirmadas pelo OpenContracting são demonstradas em bons artigos científicos.
+Os acervos do SciELO e do PubMed Central reforçam                       os demais, e demonstram que existe aquecimento global e efeito estufa nas cidades.
+
+As revistas indexadas em acervos (como ex. PMC) garantem que a criação de provas é realizada aos pares:
+PDF + XML
+Se o PDF e o XML não forem “irmãos gêmeos” o processo todo fica comprometido!
+
+Até 2015, todavia, a cultura de contratos entre revista e autores era baseada na “assinatura do PDF”... Isso inviabilizava o XML-Publishing completo, acarretando enormes custos.  Só em 2015 a famosa PLOS ONE superou essa barreira cultural, e hoje assina-se o conteúdo (modelo DOI e não mais modelo ISSN).
+
+As revistas são análogas aos Diários Oficiais, e o contrato 
+O Grande Desafio no Brasil vai ser a superação da cultura do “só PDF”                           nos Diários Oficiais....
+
+... acervos parindo gêmeos!
+
+O Rio Grande do Sul é o único estado brasileiro com todos os seus municípios no acervo  LexML.  Tribunal de Contas do Estado (TCE-RS), por exemplo, foi a primeira Corte de Contas estadual a ter sua base de legislação indexada pelo projeto LexML. 
+
+O que o RS exige não é ainda PDF+XML, mas é o formato ODT, formato XML-zip ISO utilizado no Libre Office. Em alguns municípios acabam usando junto o carimbado, ODT+IMG 
+Talvez esse seja o caminho a ser trilhado, antes da maturidade do PDF+XML.
+Nota: alternativa temp. de RS
+
+... dúvidas e breve discussão...
+
+...pause...
+
+Identificador lex: exemplo de doc
+http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2008-06-19;11705
+é como uma 
+“ficha catolográfica”
+
+O identificador único da norma,
+
+"Lei Federal nº 11705, de 19 de Junho de 2008" 
+  = urn:lex:br:federal:lei:2008-06-19;11705
+
+
+
+O identificador do documento nunca mais se perde (!), 
+
+urn:lex:br:federal:lei:2008-06-19;11705
+
+o LexML justamente garante isso, garante que o link sempre vai mostrar essa mesma ficha catalográfica, mesmo se o site que abriga os documentos (página, PDF, etc.) saia do ar ou mude de endereço. 
+
+O Link para o identificador (http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2008-06-19;11705)   vai funcionar sempre: mesmo daqui 1, 2 ou 10 anos, o link dentro de um PDF, dentro de CD-ROM, ou mesmo num QR-Code, vai funcionar!
+Identificador lex, é estável e eterno!
+
+Para quem já conhece os padrões ISSN e DOI podemos usar uma analogia,
+
+
+
+Semelhanças com ISSN e DOI
+ISSN-L
+DOI
+LexML
+Objeto típico
+Revista científica
+Artigo científico
+Lei
+Exemplo típico
+urn:issn:0028-0836
+doi:10.1038/ncomms7368
+urn:lex:br...
+Autoridade
+ISSN.org
+DOI.org
+LexML.gov.br
+Em termos de “autoridade de registro” o ISSN é especializado em assegurar identificadores únicos para revistas, enquanto o DOI para artigos dentro de revistas. Já o LexML faz papel de ambos. Exemplo: “br;sao.paulo;campinas:municipal” é o análogo de uma revista (ISSN) e “br;sao.paulo;campinas:municipal:lei:1993-02-25;7446” como análogo de um DOI.
+
+Para que a Câmara Municipal de São Paulo tenha o seu acervo de normas exposto e inteligível para todas as outras ferramentas, externas ou internas à Câmara, basta que a Câmara indique mais formalmente os nomes dos documentos (leis, decretos, projetos de lei, etc.), ou seja, informe os seus identificadores.
+
+Uma vez “oficializados” os identificadores das normas, diversas ferramentas e recursos para indexação e troca de dados, se tornarão acessíveis (!). 
+
+PS: tecnicamente o objetivo é a interoperabilidade entre sistemas do governo.
+OBJETIVO DA URL LEX
+
+... dúvidas e breve discussão...
+
+...pause...
+
+A iniciativa LexML surgiu em 2001, como proposta nos países do sistema romano-germânico (Civil law countries).
+LexML no mundo...
+Distribuiçao da
+Civil law 
+e da
+Commom law
+
+
+
+ 
+
+Ignorantia legis neminem excusat
+
+No Brasil o LexML foi oficialmente em junho de 2009... Com foco na resolução das URNs e na estabilidade, com interface amigável e acervo amplo, vem se tornando referência internacional.
+
+Brasil e Itália estão submetendo um padrão (válido tb. para Commom law), consolidando as tecnologias e tornando mais fácil que outros países adotem as soluções construídas, a RFC da URN LEX,
+   http://tools.ietf.org/html/draft-spinosa-urn-lex-09
+   (uma introdução na Wikipedia-pt) 
+vamos explicar melhor o uso das URNs mais adiante.
+
+Colaboração internacional
+
+Obrigatoriedade da publicação (art. 37); 
+Direito de acesso (art. 5º, inciso XIV); 
+Obrigatoriedade da franquia ao acesso              (art. 216, § 2º);
+Transparência (art. 5º, XXXV);
+Direito à "auto-defesa" (art. 133);
+Defesa em tempo (art. 5º, LXXVIII).
+
+O que diz a Constituição?
+
+O LexML vem "pagando" essa dívida antiga*, contraída em 1988:
+
+Obrigatoriedade da publicação: o e-PING já recomenda; o Judiciário já obriga; e em alguns estados, como o RS onde algumas normas municipais de hierarquia superior (ex. Lei Orgânica) precisam estar no LexML.
+Direito de acesso: qualquer cidadão, com o Marco Civil da Internet, agora tem exatamente o mesmo direito de acesso.
+Transparência: o LexML veio criar um arcabouço completo e um referencial tecnológico para o conceito de transparência, antes um tanto vago. A LAI e o LexML se reforçaram mutuamente.
+
+* a Ignorantia legis vem de antes, nunca na história havia sido 100% contemplada.
+CF: o LexML contempla!
+
+(... continuação)
+obrigatoriedade da franquia ao acesso: quem sustenta o LexML é o governo. Garante-se 24hs/dia, 7dias/semana, ..., 10 anos/década (!). Confiabilidade e persistência das URLs e URNs do LexML. 
+direito à "auto-defesa": o acesso online e a interoperabilidade para funcionar com outras ferramentas, garante o “aprendizado das leis” (...)  
+defesa em tempo: enorme automação oferecida aos agentes operadores do Direito, vem sendo conquistada com a adoção os padrões LexML.
+
+
+CF: o LexML contempla  (cont.)
+
+1. Complete: legislação federal sim. Restante não.
+2. Primary: os metadados indicam todas as variações do tema "fonte primária" (carimbo, DOM, e original digital).
+3. Timely: é compromisso da autoridade manter o LexML informado.
+4. Accessible: os metadados indicam todas as variações de MIME (PDF, IMG e HTML), e o XML vai gerar igualmente.
+5. Machine processable: tudo com opção XML.
+6 a 8. Non-discriminatory, Non-proprietary, License-free: a CF garante!
+ 
+
+Open Government Data Principles: contempla!
+
+... dúvidas e breve discussão...
+...pause...
+
+O gráfico mostra estimativas do montante de normas de hierarquia superior em 2004. Naquela época já eram muitas,                                             mais de 3,5 milhões.
+
+Hoje, passados 10 anos e com o acervo de metadados da esfera federal praticamente completo, sabemos que são mais.
+Com as demandas de Dados Abertos também sabemos da relevância das normas de hierarquia inferior... Só nos municípios já seriam bem mais do que 4 milhões.
+Pouco a pouco chegaremos lá...
+
+O Projeto LexML vai além das funcionalidades de busca.        (ver PDFs)
+
+Estabelece um modelo de referência, a partir do qual analistas, programadores, usuários e operadores do Direito podem se expressar com rigor e sem ambiguidade.
+Estabelece padrões (recomendados pelo e-PING), 
+URN lex: identificador único transparente.
+XML (DTD LexML): estruturar o inteiro teor dos documentos. 
+Protocolos (webservices, OAI e outros): intercâmbios de dados, interoperabilidade de sistemas.
+Metodologias: edição de normas, armazenamento, marcação, etc.
+Oferece softwares que operam em conformidade com os padrões.
+O que mais é o LexML?
+
+Nos últimos anos passaram a operar publicamente na Internet uma série de outras iniciativas similares, destacando-se:
+UK: http://www.legislation.gov.uk/
+EUA: não é centralizado (!), usa-se mais o Google Scholar Case law
+Padrões XML (inspirador do LexML): Akoma Ntoso
+Padrões e sistemas análogos para artigos científicos: além da UE,
+DOI: resolução de identificadores únicos é centralizada.
+JATS: XML para a marcação semântica e segmentação precisa. 
+SciELO: brasileiro, indexa diversos outros países.
+PubMED Central: modelo de referência, maior e mais completo.
+Projetos análogos
+
+Buscas LexML vs Google
+Atributo do buscador/acervo
+LexML
+Google
+Soberania nacional
+SIM
+NÃO
+Concorrência de mercado
+SIM
+SIM
+Interoperabilidade
+SIM
+NÃO
+Confiabilidade da informação recuperada
+SIM
+NÃO
+Especialista (precisão)
+Alta
+NÃO
+Parcela do universo/Internet (extaustão)
+Média
+Alta
+concorrência neste contexto é a disputa por usuários na Internet
+
+... dúvidas e breve discussão...
+
+...pause...
+
+Já temos uma visão geral e um norte para a leitura e discussão:
+http://projeto.lexml.gov.br/
+Apresentação
+Parte 1: Modelo de Referência
+Parte 2: LEXML URN
+Parte 3: XML Schema
+Parte 4: Coleta de Metadados
+Parte 4-A: Kit Provedor de Dados
+Parte 5: Serviço de Resolução de URN
+Parte 6: Vocabulários Controlados
+
+Mão na massa: normas LexML!
